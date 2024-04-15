@@ -1,0 +1,19 @@
+p {
+    background-color: #fdc1cb;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#id_secound {
+    color: blue;
+    font-size: 36px;
+}
+
+.class_third {
+    font-size: 24px;
+}
+
+#id_fourth {
+    background-color: rgba(54, 214, 75, 0.507);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
