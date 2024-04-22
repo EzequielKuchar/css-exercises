@@ -1,9 +1,22 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+ul {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
 }
 
 .logo {
+  align-self: center;
   font-size: 48px;
   font-weight: 900;
   color: tomato;
