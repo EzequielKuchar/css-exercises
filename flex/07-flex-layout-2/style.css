@@ -41,14 +41,15 @@ a {
 body {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
 }
 
 .header {
-  padding: 15px;
-  font-size: 24px;
+  display:flex;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 32px;
   font-weight: 900;
-  height: 35px;
+
 }
 
 .container {
@@ -56,8 +57,25 @@ body {
   flex-grow: 1;
 }
 
+ul.container {
+  flex-direction: column;
+  align-items:start;
+  padding: 0;
+  gap: 10px;
+}
+
+div li {
+  margin-bottom: 15px;
+}
+
+li {
+  list-style-type: none
+}
+
 .sidebar {
   flex-shrink: 0;
+  font-size: 25px;
+  padding: 15px;
 }
 
 a {
@@ -67,17 +85,18 @@ a {
 .wrap {
   display: flex;
   flex-wrap: wrap;
+  padding: 50px;
+  gap: 25px;
 }
 
 .card {
-  width: 250px;
-  margin: 25px;
+  width: 300px;
   padding: 15px;
 }
 
 .footer {
-  text-align: center;
-  height: 35px;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
